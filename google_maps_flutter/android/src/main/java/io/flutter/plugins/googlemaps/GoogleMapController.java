@@ -149,6 +149,7 @@ final class GoogleMapController
     updateInitialPolylines();
     updateInitialCircles();
     updateInitialTileOverlays();
+    googleMap.setScrollGesturesEnabledDuringRotateOrZoom(false)
   }
 
   @Override
